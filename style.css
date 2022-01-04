@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+}
+
+ul {
+    width: 100%;
+    height: 58px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  li a:hover {
+    color: tomato;
+  }
+
+
+.main{
+    width: 100%;
+    height: 700px;
+    background-image: url(image/image-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 1559px 1036px;
+}
+
+.our_story{
+    display: flex;
+}
+
+.our_story_text{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.our_story_text h1{
+    margin: 0;
+    font-size: 2.5em;
+    color: tomato;
+}
+
+.our_story_text p{
+    margin: 0;
+    padding: 5px 50px;
+    font-size: 1.5em;
+}
+
+.our_story_text h4{
+    margin: 0;
+    font-size: 1.5em;
+    color: tomato;
+}
+
+.our_story_image{
+    width: 65%;
+}
+.our_story_image img{
+    width: 100%;
+    height: 100%;
+
+}
+
+/* fare design start */
+.fare{
+    display: flex;
+}
+.fare_image{
+    width: 65%;
+}
+.fare_image img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.fare_text{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fare_text img{
+    width: 65%;
+    height: 18%;
+}
+
+
+.fare_text h1{
+    margin: 0;
+    font-size: 2.5em;
+    color: rgb(48, 32, 29);
+    text-transform: uppercase;
+}
+
+.fare_text p{
+    margin: 0;
+    padding: 5px 50px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.fare_text h4{
+    margin: 0;
+    font-size: 1.5em;
+    color: rgb(245, 134, 152);
+    text-transform: uppercase;
+}
+/* fare design end */
+
+
+/* local design start */
+.local{
+    display: flex;
+}
+
+.local_text{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.local_text h1{
+    margin: 0;
+    font-size: 2.5em;
+    color: tomato;
+}
+
+.local_text p{
+    margin: 0;
+    padding: 5px 50px;
+    font-size: 1.5em;
+}
+
+.local_text h4{
+    margin: 0;
+    font-size: 1.5em;
+    color: tomato;
+}
+.local_image{
+    width: 65%;
+}
+
+.local_image img{
+    width: 100%;
+    height: 100%;
+}
+.local_text img{
+    width: 25%;
+    height: 25%;
+}
+/* local design end */
+
+/* bg image start  */
+
+.bg_image{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.bg_image img{
+    width: 100%;
+}
+/* bg image end */
+
+/* footer design start  */
+
+.footer_part{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background-color:rgb(228, 228, 243)
+    /* background-image: url(image/image-01.jpg);
+    background-repeat: repeat;
+    background-size: 150px 150px; */
+
+}
+
+
+.footer_part_text{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.make_line{
+    margin: 10px 10px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+.ends{
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.links a{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #e7d9dd;
+    line-height: 35px;
+    text-align: center;
+    margin: 10px 10px;
+    color: white;
+}
+
+.links a:hover{
+    height: 40px;
+    width: 40px;
+    background: white;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 10px;
+    color: black;
+}
+
+
+.local_text{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer_part_text h1{
+    margin: 0;
+    font-size: 2.5em;
+    color: tomato;
+}
+
+
+.footer_part_text p{
+    margin: 0;
+    padding: 5px 50px;
+    font-size: 1em;
+}
